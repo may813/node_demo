@@ -36,6 +36,6 @@ app
   .use(router.allowedMethods());
 
 // 监听端口
-app.listen(3000, () => {
-  console.log("[demo] route-use-middleware is starting at port " + 3000);
+app.listen(80, () => {
+  console.log("[demo] route-use-middleware is starting at port " + 80);
 });
